@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+nav,.addBtn,.button,.logoutbtn{
+    background-color: #E38B29;
+}
+.navbar-brand{
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.nav-link:hover{
+color: black;
+}
+
+.addBtn,.button{
+height: 40px;
+width: 100px;
+border-radius: 10px;
+font-size: 1.2rem;
+border: none;
+outline: none;
+}
+.addBtn,.button{
+    color: #fff;
+}
+#title,#description{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: solid 1px #E38B29;
+    padding: 10px;
+}
+#etitle,#edescription{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 1rem 0;
+    border: solid 1px #E38B29;
+    padding: 10px;
+}
+#title:focus,#description:focus,#etitle:focus,#edescription:focus{
+    outline: none;
+}
+.card{
+    width: 18rem;
+    border: solid 1px #E38B29;
+}
+i{
+    cursor: pointer;
+    padding: 0 5px;
+    color: #E38B29;
+}
+.l-btn{
+    margin-right: 10rem;
+}
+@media  only screen and (max-width: 700px) {
+    html,
+    body {
+      width: auto !important;
+      overflow-x: hidden !important;
+    }
+    .l-btn{
+        margin-right: 5rem;
+    }
+    
+}
+@media  only screen and (max-width: 500px) {
+    html,
+    body {
+      width: auto !important;
+      overflow-x: hidden !important;
+    }
+    .l-btn{
+        margin-right: 0rem;
+    }
+    .navbar-brand{
+        margin-left: 1rem;
+    }
+    #title,#description{
+        width: 450px;
+    }
+    #etitle,#edescription{
+        width: 400px;
+    }
+    
+}
+@media  only screen and (max-width: 450px) {
+    html,
+    body {
+      width: auto !important;
+      overflow-x: hidden !important;
+    }
+    .l-btn{
+        margin-left: 5rem;
+    }
+    #title,#description{
+        width: 400px;
+    }
+    #etitle,#edescription{
+        width: 350px;
+    }
+    
+}
+@media  only screen and (max-width: 420px) {
+    html,
+    body {
+      width: auto !important;
+      overflow-x: hidden !important;
+    }
+    .l-btn{
+        margin-left: 2rem;
+    }
+    #title,#description{
+        width: 350px;
+    }
+    #etitle,#edescription{
+        width: 300px;
+    }
+    
+}
+@media  only screen and (max-width: 375px) {
+    html,
+    body {
+      width: auto !important;
+      overflow-x: hidden !important;
+    }
+    .l-btn{
+        margin-left: 0rem;
+    }
+    #title,#description{
+        width: 300px;
+    }
+    #etitle,#edescription{
+        width: 270px;
+    }
+    .card{
+        width: 16rem;
+    }
+    
+}
+
+
+
+
